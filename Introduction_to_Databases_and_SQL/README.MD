@@ -244,6 +244,17 @@ For example, an ERD might show:
 1. **DB Schema** is like the **plan** or **blueprint** of how a library is organized (where everything goes and what it’s called).
 2. **ERD** is like a **map** that shows **how things are connected** to each other in that library.
 
+Example - 
++----------------+       +----------------+       +------------------+
+|    Books      |       |   Members      |       |      Loans       |
++----------------+       +----------------+       +------------------+
+| book_id (PK)  |<----->| member_id (PK) |<----->| loan_id (PK)     |
+| title         |       | name           |       | book_id (FK)     |
+| author        |       | email          |       | member_id (FK)   |
+| genre         |       +----------------+       | loan_date        |
++----------------+                               | return_date      |
+                                                 +------------------+
+
 ---
 
 **In a nutshell**: 
