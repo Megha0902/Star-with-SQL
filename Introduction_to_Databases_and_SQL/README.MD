@@ -400,7 +400,7 @@ In a **database**, **keys** help us quickly find specific **records** in tables 
 
 ---
 
-### ***Types of Keys in a Database***
+### Types of Keys in a Database
 
 ---
 
