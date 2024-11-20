@@ -274,7 +274,7 @@ Think of these data types as different ways of organizing and storing different 
 
 
 
-### 1. **String (Text) Data Type**
+#### 6.1. **String (Text) Data Type**
 
 A **string** is any kind of **text** or **word**. Imagine a **name**, **address**, or **email**—these are all pieces of text. 
 
@@ -302,7 +302,7 @@ Here, `username` and `email` are **string** types because they hold **text**.
 
 ---
 
-### 2. **Numeric Data Type**
+#### 6.2. **Numeric Data Type**
 
 **Numeric** data types are used to store numbers. These numbers can represent things like **age**, **price**, or **quantity**. 
 
@@ -332,7 +332,7 @@ Here, `price` is a **numeric** type, and `quantity` is an **integer** type.
 
 ---
 
-### 3. **Date and Time Data Type**
+#### 6.3. **Date and Time Data Type**
 
 **Date and Time** types are used to store dates, times, or a combination of both.
 
