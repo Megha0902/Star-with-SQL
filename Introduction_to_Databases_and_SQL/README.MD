@@ -55,8 +55,6 @@ Each shelf (called a **table**) has rows (each book) and columns (information ab
 So, **DBMS** is like a messy library where books are just stored without much structure, and **RDBMS** is like a super organized library where books are kept in shelves with clear categories, and the librarian can quickly find and relate books for you.
 
 
----
-
 The main difference is in **how data is organized** and **how the relationship between the data is handled**.
 
 | **Feature**        | **DBMS**                                                      | **RDBMS**                                                                         |
