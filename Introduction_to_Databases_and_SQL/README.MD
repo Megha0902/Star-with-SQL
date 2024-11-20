@@ -530,7 +530,6 @@ In simpler terms:
 - **Candidate key** is any key that could be used as a primary key.
 - **Composite key** is like using two pieces of information together to make something unique.
 
-Sure! Let's create an example using a **"Customers"** table and explain which columns should have which keys and why.
 
 ### Example: "Customers" Table
 
