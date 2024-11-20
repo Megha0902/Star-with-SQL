@@ -245,6 +245,7 @@ For example, an ERD might show:
 2. **ERD** is like a **map** that shows **how things are connected** to each other in that library.
 
 Example - 
+```
 +----------------+       +----------------+       +------------------+
 |    Books      |       |   Members      |       |      Loans       |
 +----------------+       +----------------+       +------------------+
@@ -254,6 +255,7 @@ Example -
 | genre         |       +----------------+       | loan_date        |
 +----------------+                               | return_date      |
                                                  +------------------+
+```
 
 ---
 
