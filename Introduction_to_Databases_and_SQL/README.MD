@@ -125,7 +125,7 @@ Let’s look at how you might ask the database for information. Here are some ba
 ---
 
 ### **Why do we need a database when we already have Excel?**
----
+
 
 ### 1. **Scalability** (Can it grow easily?)
 
