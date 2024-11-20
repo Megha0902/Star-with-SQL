@@ -196,20 +196,20 @@ Let’s look at how you might ask the database for information. Here are some ba
 | **Performance**    | **Slows down** with large datasets                                          | **Fast** even with large datasets and complex queries                         |
 | **Data Integrity** | **Low** – human errors are easy to make                                     | **High** – enforces rules to keep data accurate and consistent                |
 
----
+
 
 ### Conclusion:
 - **Excel** is great for small, simple tasks, but when you need to handle **lots of data**, work with **multiple people**, and keep everything **secure, fast, and accurate**, a **database** is the better choice.
 
 ---
 ### **5. DB Schema and Entity-Relationship Diagram (ERD)**
----
+
 
 ### **Imagine a Library!**
 
 Think of a **DB schema** and an **Entity-Relationship Diagram (ERD)** like a **map of a library**.
 
----
+
 
 ### **What is DB Schema?**
 
@@ -239,7 +239,6 @@ For example, an ERD might show:
 - A **customer** has a **relationship** with the **books** they borrow.
 - A **book** can be borrowed by many **customers** over time.
 
----
 
 ### So, to sum it up:
 1. **DB Schema** is like the **plan** or **blueprint** of how a library is organized (where everything goes and what it’s called).
@@ -260,7 +259,7 @@ Let's break down the three main data types in SQL:
 
 Think of these data types as different ways of organizing and storing different types of information in your SQL tables.
 
----
+
 
 ### 1. **String (Text) Data Type**
 
