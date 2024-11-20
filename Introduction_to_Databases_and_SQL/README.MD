@@ -379,7 +379,7 @@ These data types are the building blocks for storing **all kinds of information*
 
 **concept of keys**
 
-### What is a Key in a Database?
+### 7. **What is a Key in a Database?**
 
 Think of a **key** in a database like a **key to a locker**. Just like you need a specific key to open a locker and access what’s inside, a **key in a database** is used to identify a specific **record** (or row) in a table.
 
@@ -400,11 +400,11 @@ In a **database**, **keys** help us quickly find specific **records** in tables 
 
 ---
 
-### ***7. Types of Keys in a Database***
+### ***Types of Keys in a Database***
 
 ---
 
-#### 1. **Primary Key**
+#### a. **Primary Key**
 
 The **Primary Key** is like the **most important key** for a table. It helps us **uniquely identify each record (row)** in a table.
 
@@ -428,7 +428,7 @@ In this table, the `student_id` is the **primary key** because it **uniquely ide
 
 ---
 
-#### 2. **Foreign Key**
+#### b. **Foreign Key**
 
 The **Foreign Key** is like a **reference** to another table’s **primary key**. It helps us establish a **relationship** between two tables.
 
@@ -453,7 +453,7 @@ Here, the `student_id` in the **Enrollments** table is a **foreign key** that li
 
 ---
 
-#### 3. **Unique Key**
+#### c. **Unique Key**
 
 A **Unique Key** is similar to the primary key, but it allows **null values**. It ensures that the values in a column are **unique** across all records, but unlike the primary key, it **can** allow for **null values**.
 
@@ -471,7 +471,7 @@ Here, `card_number` is a **unique key**, meaning no two library cards can have t
 
 ---
 
-#### 4. **Candidate Key**
+#### d. **Candidate Key**
 
 A **Candidate Key** is any column (or combination of columns) that **could** be used as the **primary key**, but only one key is chosen to be the primary key.
 
@@ -491,7 +491,7 @@ In this table, both `student_id` and `email` could be used to uniquely identify 
 
 ---
 
-#### 5. **Composite Key**
+#### e. **Composite Key**
 
 A **Composite Key** is a combination of **two or more columns** used together to uniquely identify a record in a table. This is used when a single column isn’t enough to uniquely identify a record.
 
